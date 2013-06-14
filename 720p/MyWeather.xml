@@ -49,7 +49,7 @@
 					<texture>$INFO[Window(Weather).Property(Current.FanartCode),special://skin/media/weather/,.png]</texture>
 				</control>
 				<control type="label">
-					<label>Aktuell</label>
+					<label>$LOCALIZE[32000]</label>
 					<posx>700</posx>
 					<posy>150</posy>
 					<width>190</width>
@@ -80,7 +80,7 @@
 					<textcolor>red</textcolor>
 				</control>
 				<control type="label">
-					<label>[COLOR WeatherHeading]$LOCALIZE[402]: [/COLOR] $INFO[Window.Property(Current.FeelsLike)]$INFO[System.TemperatureUnits]</label>
+					<label>[COLOR=WeatherHeading]$LOCALIZE[402]: [/COLOR] $INFO[Window.Property(Current.FeelsLike)]$INFO[System.TemperatureUnits]</label>
 					<posx>690</posx>
 					<posy>350</posy>
 					<width>190</width>
@@ -91,18 +91,18 @@
 					<wrapmultiline>true</wrapmultiline>
 				</control>
 				<!-- Lower Left Corner Info -->
-				<control type="label">
-					<label>[COLOR WeatherHeading]$LOCALIZE[403]: [/COLOR] $INFO[Window.Property(Current.UVIndex)]</label>
+				<!-- <control type="label">
+					<label>[COLOR=WeatherHeading]$LOCALIZE[403]: [/COLOR] $INFO[Window.Property(Current.UVIndex)]</label>
 					<posx>-15</posx>
 					<posy>508</posy>
 					<width>400</width>
 					<height>25</height>
 					<font>magnetoBbigger</font>
 					<textcolor>chocolate</textcolor>
-				</control>
+				</control> -->
 				<control type="label">
-					<label>Taupunkt: $INFO[Window.Property(Current.DewPoint)]$INFO[System.TemperatureUnits]</label>
-					<posx>-60</posx>
+					<label>$LOCALIZE[31998]: $INFO[Window.Property(Current.DewPoint)]$INFO[System.TemperatureUnits]</label>
+					<posx>-72</posx>
 					<posy>616</posy>
 					<width>400</width>
 					<height>25</height>
@@ -111,12 +111,12 @@
 					<animation effect="rotate" time="0" delay="0" start="0" end="11" condition="true">Conditional</animation>
 				</control>
 				<control type="label">
-					<label>Feuchtigkeit: $INFO[Window.Property(Current.Humidity)]</label>
+					<label>$LOCALIZE[31999]: $INFO[Window.Property(Current.Humidity)]</label>
 					<posx>-60</posx>
 					<posy>654</posy>
 					<width>400</width>
 					<height>25</height>
-					<font>magnetoBbig</font>
+					<font>magnetoBbigger</font>
 					<textcolor>blue1</textcolor>
 					<animation effect="rotate" time="0" delay="0" start="0" end="11" condition="true">Conditional</animation>
 				</control>
@@ -577,21 +577,23 @@
 			
 		</control>
 		<!-- Heading Labels at very top of screen -->
-		<control type="group">
+	<!-- 	<control type="group">
 			<posx>30</posx>
 			<posy>10</posy>
 			<control type="label">
+				<posy>0</posy>
 				<label>$INFO[Weather.Location]</label>
 				<include>Global_HeadingSectionVars</include>
 			</control>
 			<control type="label">
+			<posy>22</posy>
 				<label>$LOCALIZE[31208] $INFO[Window.Property(Updated)]</label>
 				<include>Global_HeadingDetailVars</include>
 			</control>
-		</control>
-		<include>Global_Weather</include>
-		<include>Global_Time</include>
+		</control> -->
+		<!-- <include>Global_Weather</include> -->
+		<!-- <include>Global_Time</include> -->
 		<include condition="Skin.HasSetting(DebugGrid)">Object_DebugGrid</include>
-		<include condition="Skin.HasSetting(DebugMode)">Debug</include>
+		<!-- <include condition="Skin.HasSetting(DebugMode)">Debug</include> -->
 	</controls>
 </window>

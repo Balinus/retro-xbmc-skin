@@ -113,7 +113,7 @@
 					<description>Weather</description>
 					<!--onclick>XBMC.ActivateWindow(10025,special://skin/playlists/HDMovies.xsp,return)</onclick-->
 					<label>8</label>
-					<onclick>ActivateWindow(weather)</onclick>
+					<onclick>ActivateWindow(Weather)</onclick>
 					<!--visible>!Skin.HasSetting(HomeMenuNoHDMoviesButton) + Library.HasContent(Movies)</visible-->
 					<visible>!Skin.HasSetting(HomeMenuNoWeatherButton)</visible>
 				</item>
