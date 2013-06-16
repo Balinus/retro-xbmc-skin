@@ -94,8 +94,8 @@
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="dialogListButton">
-		<textcolor>FFFFFFFF</textcolor>
-		<shadowcolor>ff555555</shadowcolor>
+		<textcolor>chocolate</textcolor>
+		<!-- <shadowcolor>ff555555</shadowcolor> -->
 		<textoffsetx>15</textoffsetx>
 		<focusedcolor>ivory1</focusedcolor>
 		<font>qlassikSmallBold2</font>
@@ -118,8 +118,8 @@
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="dialogRadio">
-		<textcolor>FFFFFFFF</textcolor>
-		<shadowcolor>ff555555</shadowcolor>
+		<textcolor>chocolate</textcolor>
+		<!-- <shadowcolor>ff555555</shadowcolor> -->
 		<focusedcolor>ivory1</focusedcolor>
 		<font>qlassikSmallBold2</font>
 		<texturefocus border="10">dialogs/list-focus.png</texturefocus>
@@ -130,8 +130,8 @@
 		<radiowidth>48</radiowidth>
 	</include>
 	<include name="dialogSpin">
-		<textcolor>FFFFFFFF</textcolor>
-		<shadowcolor>ff555555</shadowcolor>
+		<textcolor>chocolate</textcolor>
+		<!-- <shadowcolor>ff555555</shadowcolor> -->
 		<textoffsetx>15</textoffsetx>
 		<focusedcolor>ivory1</focusedcolor>
 		<font>qlassikSmallBold2</font>
@@ -156,9 +156,9 @@
 		<textureslidernib border="0,9,0,9">dialogs/sliderNib.png</textureslidernib>
 		<textureslidernibfocus border="0,9,0,9">dialogs/sliderNib.png</textureslidernibfocus>
 		<font>qlassikSmallBold2</font>
-		<shadowcolor>ff555555</shadowcolor>
+		<!-- <shadowcolor>ff555555</shadowcolor> -->
 		<height>40</height>
-		<textcolor>FFFFFFFF</textcolor>
+		<textcolor>chocolate</textcolor>
 		<focusedcolor>ivory1</focusedcolor>
 		<textoffsetx>15</textoffsetx>
 		<textoffsety>15</textoffsety>

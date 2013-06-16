@@ -15,17 +15,17 @@
 		</control>
 		<control type="label">
 			<posx>34</posx>
-			<posy>28</posy>
+			<posy>20</posy>
 			<width>232</width>
 			<label>$LOCALIZE[13376]</label>
-			<font>normalLow</font>
+			<font>lobsterMediumSmall</font>
 			<align>center</align>
-			<textcolor>Color4</textcolor>
+			<textcolor>black</textcolor>
 		</control>
 		<control type="progress" id="1">
 			<description>progress control</description>
 			<posx>34</posx>
-			<posy>65</posy>
+			<posy>85</posy>
 			<width>230</width>
 			<height>18</height>
 			<info>Player.Volume</info>
