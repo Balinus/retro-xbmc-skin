@@ -100,7 +100,7 @@
 		
 		<!-- bg settings -->
 		<control type="group">
-			<visible>[Window.IsActive(59) | Window.IsActive(4000) | Window.IsActive(settings) | Window.IsActive(systemsettings) | Window.IsActive(appearancesettings) | Window.IsActive(videossettings) | Window.IsActive(programssettings) | Window.IsActive(musicsettings) | Window.IsActive(picturessettings) | Window.IsActive(networksettings)| Window.IsActive(SkinSettings)]</visible>
+			<visible>[Window.IsActive(59) | Window.IsActive(4000) | Window.IsActive(Settings) | Window.IsActive(systemsettings) | Window.IsActive(appearancesettings) | Window.IsActive(videossettings) | Window.IsActive(programssettings) | Window.IsActive(musicsettings) | Window.IsActive(picturessettings) | Window.IsActive(networksettings)| Window.IsActive(SkinSettings)]</visible>
 			<control type="image">
 				<description>settings bg</description>
 				<include>fullScreenScale</include>

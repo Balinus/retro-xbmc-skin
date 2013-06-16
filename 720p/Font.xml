@@ -63,6 +63,11 @@
 			<size>22</size>
 		</font>
 		<font>
+			<name>marketingBig</name>
+			<filename>MarketingScript.ttf</filename>
+			<size>32</size>
+		</font>
+		<font>
 			<name>wisdomMedium</name>
 			<filename>Wisdom_Script.ttf</filename>
 			<size>22</size>

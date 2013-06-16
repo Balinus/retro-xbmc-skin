@@ -22,7 +22,7 @@
 		<posx>85</posx>
 		<posy>230</posy>
 		<!--<font>geoSmall2</font>-->
-		<font>qlassikMedium</font>
+		<font>lobsterMediumSmall</font>
 		<textcolor>ivory3</textcolor>
 		<shadowcolor>ff222222</shadowcolor>
 		<align>left</align>
