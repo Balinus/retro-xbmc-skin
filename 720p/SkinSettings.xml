@@ -263,6 +263,14 @@
 					<include>MenuSubSettingsButton</include>
 				</control>
 				
+				<control type="radiobutton" id="283">
+					<description>Turn OFF the Startup window (when Plex starts)</description>
+					<label>$LOCALIZE[41029]</label>
+					<onclick>Skin.ToggleSetting(DisableStartupSound)</onclick>
+					<selected>Skin.HasSetting(DisableStartupSound)</selected>
+					<include>MenuSubSettingsButton</include>
+				</control>
+				
 			</control>
 			
 			<!-- home screen -->
@@ -427,13 +435,7 @@
 					<selected>Skin.HasSetting(retroplexmusiclogo)</selected>
 					<include>MenuSubSettingsButton</include>
 				</control>-->
-				<control type="radiobutton" id="283">
-					<description>Turn OFF the Startup window (when Plex starts)</description>
-					<label>$LOCALIZE[41029]</label>
-					<onclick>Skin.ToggleSetting(DisableStartupSound)</onclick>
-					<selected>Skin.HasSetting(DisableStartupSound)</selected>
-					<include>MenuSubSettingsButton</include>
-				</control>
+				
 			</control>
 			<!-- about Retroplex -->
 			<control type="group" id="5000">
@@ -618,6 +620,7 @@
 					<selected>Skin.HasSetting(showprogramsmainmenu)</selected>
 					<include>MenuSubSettingsButton</include>
 				</control>
+						
 				<control type="radiobutton" id="220">
 					<description>hide Help menu entry</description>
 					<label>$LOCALIZE[41031]</label>
@@ -625,6 +628,13 @@
 					<selected>Skin.HasSetting(hidehelpmainmenu)</selected>
 					<include>MenuSubSettingsButton</include>
 				</control>
+				<control type="radiobutton" id="219">
+					<description>show Favourites menu entry</description>
+					<label>$LOCALIZE[32001]</label>
+					<onclick>Skin.ToggleSetting(ShowFavouritesHome)</onclick>
+					<selected>Skin.HasSetting(ShowFavouritesHome)</selected>
+					<include>MenuSubSettingsButton</include>
+				</control>	
 			</control>
 		</control>
 		<!-- <include>RetroplexLogo</include> -->

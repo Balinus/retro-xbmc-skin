@@ -364,6 +364,7 @@
 	<include name="RetroplexLogo">
 		<!-- home -->
 		<control type="group">
+		<visible>!Skin.HasSetting(hidetheawesomelogo)</visible>
 		<include>homeMenuFade</include>
 			<posx>20</posx>
 			<posy>18</posy>
