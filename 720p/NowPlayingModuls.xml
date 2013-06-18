@@ -40,8 +40,9 @@
 				<!-- now playing informations -->
 				<control type="group">
 					<control type="label">
+						<posy>-5</posy>
 						<width>250</width>
-						<font>qlassikSmallest</font>
+						<font>qlassikSmall2</font>
 						<textcolor>ivory1</textcolor>
 						<label>$INFO[MusicPlayer.Artist]</label>
 						<shadowcolor>ff444444</shadowcolor>
@@ -50,8 +51,8 @@
 					<control type="label">
 						<posy>20</posy>
 						<width>432</width>
-						<font>lobsterSmall3</font>
-						<textcolor>oldBlueLight</textcolor>
+						<font>lobsterSmall</font>
+						<textcolor>greenlime</textcolor>
 						<shadowcolor>ff444444</shadowcolor>
 						<label>$INFO[MusicPlayer.Title]</label>
 						<align>right</align>
@@ -60,7 +61,7 @@
 				<control type="label">
 					<posy>45</posy>
 					<width>200</width>
-					<font>qlassikSmallest</font>
+					<font>qlassikSmall</font>
 					<textcolor>ivory1</textcolor>
 					<label>$INFO[MusicPlayer.Time] / $INFO[MusicPlayer.Duration]</label>
 					<align>right</align>
@@ -107,7 +108,7 @@
 				<control type="group">
 					<control type="label">
 						<width>350</width>
-						<font>qlassikSmallest</font>
+						<font>qlassikSmall</font>
 						<textcolor>FFFFFFFF</textcolor>
 						<label>$INFO[MusicPlayer.Offset(1).Artist]</label>
 						<shadowcolor>ff444444</shadowcolor>
@@ -116,7 +117,7 @@
 					<control type="label">
 						<posy>21</posy>
 						<width>400</width>
-						<font>lobsterSmallest</font>
+						<font>lobsterSmall3</font>
 						<wrapmultiline>false</wrapmultiline>
 						<textcolor>FFFFFFFF</textcolor>
 						<label>$INFO[MusicPlayer.Offset(1).Title]</label>
@@ -158,7 +159,7 @@
 				<control type="group">
 					<control type="label">
 						<width>250</width>
-						<font>qlassikSmallest</font>
+						<font>qlassikSmall2</font>
 						<textcolor>ivory1</textcolor>
 						<label>$INFO[MusicPlayer.Artist]</label>
 						<shadowcolor>ff444444</shadowcolor>
@@ -168,7 +169,7 @@
 						<posy>25</posy>
 						<width>432</width>
 						<font>lobsterSmall</font>
-						<textcolor>oldBlueLight</textcolor>
+						<textcolor>greenlime</textcolor>
 						<shadowcolor>ff444444</shadowcolor>
 						<label>$INFO[MusicPlayer.Title]</label>
 						<align>left</align>
@@ -191,7 +192,7 @@
 				<control type="label">
 					<posy>65</posy>
 					<width>200</width>
-					<font>qlassikSmallest</font>
+					<font>qlassikSmall</font>
 					<textcolor>ivory2</textcolor>
 					<label>$INFO[MusicPlayer.Time] / $INFO[MusicPlayer.Duration]</label>
 					<shadowcolor>ff444444</shadowcolor>
@@ -207,7 +208,7 @@
 				<control type="group">
 					<control type="label">
 						<width>350</width>
-						<font>qlassikSmallest</font>
+						<font>qlassikSmall</font>
 						<textcolor>ivory1</textcolor>
 						<label>$INFO[MusicPlayer.Offset(1).Artist]</label>
 						<shadowcolor>ff444444</shadowcolor>
@@ -216,7 +217,7 @@
 					<control type="label">
 						<posy>21</posy>
 						<width>400</width>
-						<font>lobsterSmallest</font>
+						<font>lobsterSmall3</font>
 						<wrapmultiline>false</wrapmultiline>
 						<textcolor>ivory1</textcolor>
 						<label>$INFO[MusicPlayer.Offset(1).Title]</label>

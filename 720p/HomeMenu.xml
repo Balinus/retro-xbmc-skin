@@ -22,7 +22,7 @@
 		<posx>85</posx>
 		<posy>230</posy>
 		<!--<font>geoSmall2</font>-->
-		<font>lobsterMediumSmall</font>
+		<font>qlassikMedium</font>
 		<textcolor>ivory3</textcolor>
 		<shadowcolor>ff222222</shadowcolor>
 		<align>left</align>
@@ -74,7 +74,7 @@
 				<control type="group">
 					<control type="label">
 						<width>870</width>
-						<label>&#xB7; $INFO[ListItem.Label] </label>
+						<label>$INFO[ListItem.Label]</label>
 						<include>homeMenuFocused</include>
 						<visible>IsEmpty(ListItem.Label2)</visible>
 					</control>
@@ -89,7 +89,7 @@
 					<control type="label">
 						<posx>165</posx>
 						<posy>280</posy>
-						<label>&#xB7; $INFO[ListItem.Label2]</label>
+						<label>$INFO[ListItem.Label2]</label>
 						<font>qlassikSmall</font>
 						<height>30</height>
 						<textcolor>ivory2</textcolor>
@@ -160,12 +160,12 @@
 				</item>
 				
 				<item id="13">
-					<label>20342</label>
+					<label>$LOCALIZE[20342]</label>
 					<onclick>ActivateWindow(Videos,MovieTitles,return)</onclick>
 					<visible>true</visible>
 				</item>
 				<item id="15">
-					<label>20343</label>
+					<label>$LOCALIZE[20343]</label>					
 					<onclick>ActivateWindow(Videos,TVShowTitles,return)</onclick>
 					<visible>true</visible>
 				</item>
