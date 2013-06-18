@@ -40,15 +40,16 @@
 			</control>
 			<control type="button" id="13">
 				<width>238</width>
-				<texturenofocus border="0">1dialogs/tab-focus.png</texturenofocus>
-				<texturefocus border="0">1dialogs/tab-focus.png</texturefocus>
-				<font>special2</font>
+				<texturenofocus border="0">dialogs/tab-focus.png</texturenofocus>
+				<texturefocus border="0">dialogs/tab-focus.png</texturefocus>
+				<font>qlassikMedium</font>
 				<textoffsetx>16</textoffsetx>
 				<textoffsety>0</textoffsety>
 				<textcolor>Color3</textcolor>
 				<focusedcolor>Color5</focusedcolor>
 				<height>48</height>
 				<align>left</align>
+				<aligny>center</aligny>
 				<include>dialogButton</include>
 			</control>
 			<control type="image">

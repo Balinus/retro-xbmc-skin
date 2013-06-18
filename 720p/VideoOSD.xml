@@ -4,7 +4,7 @@
 	<controls>
 		<control type="group">
 			<posx>0</posx>
-			<posy>-100</posy>
+			<posy>-50</posy>
 			<include>fadeinout3</include>
 			<control type="group">
 				<visible>![Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks)]</visible>

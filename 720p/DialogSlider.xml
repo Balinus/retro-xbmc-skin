@@ -4,7 +4,7 @@
 	<coordinates>
 		<system>1</system>
 		<posx>398</posx>
-		<posy>300</posy>
+		<posy>30</posy>
 	</coordinates>
 	<include>dialogOpen</include>
 	<controls>

@@ -2,7 +2,7 @@
 	<allowoverlay>no</allowoverlay>
 	<coordinates>
 		<system>1</system>
-		<posx>380</posx>
+		<posx>530</posx>
 		<posy>0</posy>
 	</coordinates>
 	<controls>
@@ -170,7 +170,7 @@
 						<control type="label">
 							<posx>205</posx>
 							<posy>0</posy>
-							<width>495</width>
+							<width>425</width>
 							<height>38</height>
 							<font>qlassikSmall</font>
 							<aligny>center</aligny>
@@ -246,7 +246,7 @@
 						<control type="label">
 							<posx>205</posx>
 							<posy>0</posy>
-							<width>495</width>
+							<width>425</width>
 							<height>38</height>
 							<font>qlassikSmall</font>
 							<aligny>center</aligny>
@@ -314,47 +314,47 @@
 					</control>
 				</control>
 				<control type="image">
-					<posx>866</posx>
+					<posx>696</posx>
 					<posy>348</posy>
 					<width>24</width>
 					<height>24</height>
-					<texture>nav-right.png</texture>
+					<texture>dialogs/scrollRightIndicator.png</texture>
 				</control>
 			</control>
 			<control type="group">
+			<!-- 	<control type="image">
+					<description>separator</description>
+					<posx>715</posx>
+					<posy>130</posy>
+					<width>250</width>
+					<height>30</height>
+					<include>dialogWindow3</include>					
+				</control> -->
+				
 				<control type="image">
 					<description>separator</description>
-					<posx>542</posx>
-					<posy>360</posy>
-					<width>720</width>
-					<height>4</height>
-					<texture>default-separatorOSD.png</texture>
-					<animation effect="rotate" start="0" end="90" center="auto" time="0" condition="true">Conditional</animation>		
+					<posx>730</posx>
+					<posy>100</posy>
+					<width>250</width>
+					<height>460</height>
+					<include>dialogWindow3</include>
 				</control>
 				<control type="label">
 					<description>XBMC Subtitles label</description>
-					<posx>905</posx>
-					<posy>150</posy>
+					<posx>733</posx>
+					<posy>130</posy>
 					<width>240</width>
 					<height>26</height>
 					<label>[B]$LOCALIZE[SCRIPT760][/B]</label>
-					<font>font13</font>
+					<font>lobsterSmall</font>
 					<align>center</align>
 					<aligny>top</aligny>
-					<textcolor>FFEB9E17</textcolor>
-					<shadowcolor>FF000000</shadowcolor>
+					<textcolor>black</textcolor>
+					<!-- <shadowcolor>FF000000</shadowcolor> -->
 					<wrapmultiline>true</wrapmultiline>
 				</control>
-				<control type="image">
-					<description>separator</description>
-					<posx>900</posx>
-					<posy>176</posy>
-					<width>240</width>
-					<height>4</height>
-					<texture>default-separatorOSD.png</texture>
-				</control>
 				<control type="list" id="150">
-					<posx>900</posx>
+					<posx>720</posx>
 					<posy>206</posy>
 					<width>250</width>
 					<height>434</height>
@@ -365,21 +365,21 @@
 					<viewtype label="535">list</viewtype>
 					<scrolltime>200</scrolltime>
 					<itemlayout width="400" height="36">
-						<control type="image">
+					<!-- 	<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
 							<width>230</width>
 							<height>38</height>
 							<texture>default-list-nofocus.png</texture>
-						</control>
+						</control> -->
 						<control type="label">
 							<posx>40</posx>
 							<posy>0</posy>
 							<width>230</width>
 							<height>38</height>
-							<font>font18</font>
+							<font>qlassikSmall</font>
 							<aligny>center</aligny>
-							<textcolor>FFFFFFFF</textcolor>
+							<textcolor>chocolate</textcolor>
 							<selectedcolor>FF0084FF</selectedcolor>
 							<align>left</align>
 							<info>ListItem.Label</info>
@@ -390,9 +390,9 @@
 							<posy>0</posy>
 							<width>230</width>
 							<height>38</height>
-							<font>font10</font>
+							<font>qlassikSmall</font>
 							<aligny>center</aligny>
-							<textcolor>FF009CFF</textcolor>
+							<textcolor>black</textcolor>
 							<selectedcolor>FF0084FF</selectedcolor>
 							<align>left</align>
 							<info>ListItem.Label</info>
@@ -401,28 +401,21 @@
 					</itemlayout>
 					<focusedlayout width="400" height="36">
 						<control type="image">
-							<posx>0</posx>
+							<posx>35</posx>
 							<posy>0</posy>
-							<width>230</width>
-							<height>38</height>
-							<texture>default-list-nofocus.png</texture>
+							<width>200</width>
+							<height>40</height>
+							<texture>dialogs/list-focus.png</texture>
 						</control>
-						<control type="image">
-							<posx>10</posx>
-							<posy>0</posy>
-							<width>230</width>
-							<height>38</height>
-							<texture>default-list-focus.png</texture>
-							<visible>Control.HasFocus(150)</visible>
-						</control>
+						
 						<control type="label">
 							<posx>40</posx>
 							<posy>0</posy>
 							<width>230</width>
 							<height>38</height>
-							<font>font18</font>
+							<font>qlassikSmall</font>
 							<aligny>center</aligny>
-							<textcolor>FFFFFFFF</textcolor>
+							<textcolor>white</textcolor>
 							<selectedcolor>FF0084FF</selectedcolor>
 							<align>left</align>
 							<info>ListItem.Label</info>
@@ -433,9 +426,9 @@
 							<posy>0</posy>
 							<width>230</width>
 							<height>38</height>
-							<font>font10</font>
+							<font>qlassikSmall</font>
 							<aligny>center</aligny>
-							<textcolor>FF009CFF</textcolor>
+							<textcolor>black</textcolor>
 							<selectedcolor>FF0084FF</selectedcolor>
 							<align>left</align>
 							<info>ListItem.Label</info>
