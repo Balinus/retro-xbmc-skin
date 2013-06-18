@@ -585,6 +585,7 @@
 					<texture diffuse="frames/bannerMask.png" fallback="backgrounds/library/TVShowsNoFanartSmall.png">$INFO[ListItem.Thumb]</texture>
 					<aspectratio scalediffuse="false" align="center" aligny="top">scale</aspectratio>
 					<visible>Container.Content(episodes)</visible>
+					<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 				</control>
 				<!-- icon non-library without plot -->
 				<control type="image" id="5555">
